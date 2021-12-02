@@ -1,3 +1,3 @@
-So this was an easy one. We have been given a LAMP application. It had SQL injectiona and XSS vulnerabilities. 
+So this was an easy one. We have been given a LAMP application. It had SQL injections and XSS vulnerabilities. 
 
-For the SQL injections I just replaced old code with prepared statements. For XSS I used the htmlspecialchars() function.
+For the SQL injections I just replaced old MySQL queries with prepared statements. For XSS I used the htmlspecialchars() function.
